@@ -1,0 +1,3640 @@
+[
+    {
+        "end": 57,
+        "NER_token": {
+            "index": 12,
+            "word": "Italy",
+            "lemma": "Italy",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 57,
+            "characterOffsetBegin": 52,
+            "originalText": "Italy",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 52,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 2.94,
+            "endOffset": 56,
+            "phones": [
+                {
+                    "duration": 0.12,
+                    "phone": "ih_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.24,
+                    "phone": "iy_E"
+                }
+            ],
+            "alignedWord": "italy",
+            "start": 2.38,
+            "startOffset": 51,
+            "word": "Italy"
+        },
+        "query": "Naples Italy",
+        "word": "Italy",
+        "tfidf_score": 0.3608774465750199
+    },
+    {
+        "end": 457,
+        "NER_token": {
+            "index": 21,
+            "word": "volcano",
+            "lemma": "volcano",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 457,
+            "characterOffsetBegin": 450,
+            "originalText": "volcano",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 450,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 42.379999999999995,
+            "endOffset": 456,
+            "phones": [
+                {
+                    "duration": 0.09,
+                    "phone": "v_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "aa_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.11,
+                    "phone": "k_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "n_I"
+                },
+                {
+                    "duration": 0.24,
+                    "phone": "ow_E"
+                }
+            ],
+            "alignedWord": "volcano",
+            "start": 41.65,
+            "startOffset": 449,
+            "word": "volcano"
+        },
+        "query": "historic volcano Naples Italy",
+        "word": "volcano",
+        "tfidf_score": 0.1920014700958395
+    },
+    {
+        "end": 624,
+        "NER_token": {
+            "index": 10,
+            "word": "Italy",
+            "lemma": "Italy",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 624,
+            "characterOffsetBegin": 619,
+            "originalText": "Italy",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 619,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 58.39,
+            "endOffset": 623,
+            "phones": [
+                {
+                    "duration": 0.06,
+                    "phone": "ih_B"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "iy_E"
+                }
+            ],
+            "alignedWord": "italy",
+            "start": 58.04,
+            "startOffset": 618,
+            "word": "Italy"
+        },
+        "query": "Naples Italy",
+        "word": "Italy",
+        "tfidf_score": 0.3608774465750199
+    },
+    {
+        "end": 809,
+        "NER_token": {
+            "index": 19,
+            "word": "Italy",
+            "lemma": "Italy",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 809,
+            "characterOffsetBegin": 804,
+            "originalText": "Italy",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 804,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 70.61999899999999,
+            "endOffset": 808,
+            "phones": [
+                {
+                    "duration": 0.13,
+                    "phone": "ih_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.17,
+                    "phone": "iy_E"
+                }
+            ],
+            "alignedWord": "italy",
+            "start": 70.129999,
+            "startOffset": 803,
+            "word": "Italy"
+        },
+        "query": "Naples Italy",
+        "word": "Italy",
+        "tfidf_score": 0.3608774465750199
+    },
+    {
+        "end": 1023,
+        "NER_token": {
+            "index": 17,
+            "word": "Italy",
+            "lemma": "Italy",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 1023,
+            "characterOffsetBegin": 1018,
+            "originalText": "Italy",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 1018,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 82.74000000000001,
+            "endOffset": 1022,
+            "phones": [
+                {
+                    "duration": 0.11,
+                    "phone": "ih_B"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "iy_E"
+                }
+            ],
+            "alignedWord": "italy",
+            "start": 82.34,
+            "startOffset": 1017,
+            "word": "Italy"
+        },
+        "query": "Naples Italy",
+        "word": "Italy",
+        "tfidf_score": 0.3608774465750199
+    },
+    {
+        "end": 1336,
+        "NER_token": {
+            "index": 23,
+            "word": "Amalfi",
+            "lemma": "Amalfi",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 1336,
+            "characterOffsetBegin": 1330,
+            "originalText": "Amalfi",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 1330,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 100.69000000000001,
+            "endOffset": 1335,
+            "phones": [
+                {
+                    "duration": 0.43,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 100.26,
+            "startOffset": 1329,
+            "word": "Amalfi"
+        },
+        "query": "Amalfi Coast",
+        "word": "Amalfi",
+        "tfidf_score": 0.7008219272996474
+    },
+    {
+        "end": 1503,
+        "NER_token": {
+            "index": 15,
+            "word": "Naples",
+            "lemma": "Naples",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 1503,
+            "characterOffsetBegin": 1497,
+            "originalText": "Naples",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 1497,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 111.97999999999999,
+            "endOffset": 1502,
+            "phones": [
+                {
+                    "duration": 0.09,
+                    "phone": "n_B"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.02,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "z_E"
+                }
+            ],
+            "alignedWord": "naples",
+            "start": 111.6,
+            "startOffset": 1496,
+            "word": "Naples"
+        },
+        "query": "Naples Italy",
+        "word": "Naples",
+        "tfidf_score": 0.33596230962073015
+    },
+    {
+        "end": 1518,
+        "NER_token": {
+            "index": 18,
+            "word": "Amalfi",
+            "lemma": "Amalfi",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 1518,
+            "characterOffsetBegin": 1512,
+            "originalText": "Amalfi",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 1512,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 112.62,
+            "endOffset": 1517,
+            "phones": [
+                {
+                    "duration": 0.01,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 112.61,
+            "startOffset": 1511,
+            "word": "Amalfi"
+        },
+        "query": "Amalfi Coast",
+        "word": "Amalfi",
+        "tfidf_score": 0.7008219272996474
+    },
+    {
+        "end": 1673,
+        "NER_token": {
+            "index": 38,
+            "word": "Naples",
+            "lemma": "Naples",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 1673,
+            "characterOffsetBegin": 1667,
+            "originalText": "Naples",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 1667,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 122.08000000000001,
+            "endOffset": 1672,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "n_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.25,
+                    "phone": "z_E"
+                }
+            ],
+            "alignedWord": "naples",
+            "start": 121.46000000000001,
+            "startOffset": 1666,
+            "word": "Naples"
+        },
+        "query": "Naples Italy",
+        "word": "Naples",
+        "tfidf_score": 0.35177669932170563
+    },
+    {
+        "end": 1761,
+        "NER_token": {
+            "index": 18,
+            "word": "Naples",
+            "lemma": "Naples",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 1761,
+            "characterOffsetBegin": 1755,
+            "originalText": "Naples",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 1755,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 127.26,
+            "endOffset": 1760,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "n_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.03,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.13,
+                    "phone": "z_E"
+                }
+            ],
+            "alignedWord": "naples",
+            "start": 126.78,
+            "startOffset": 1754,
+            "word": "Naples"
+        },
+        "query": "Naples Italy",
+        "word": "Naples",
+        "tfidf_score": 0.35177669932170563
+    },
+    {
+        "end": 1926,
+        "NER_token": {
+            "index": 22,
+            "word": "Naples",
+            "lemma": "Naples",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 1926,
+            "characterOffsetBegin": 1920,
+            "originalText": "Naples",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 1920,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 137.57000000000002,
+            "endOffset": 1925,
+            "phones": [
+                {
+                    "duration": 0.05,
+                    "phone": "n_B"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.02,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "z_E"
+                }
+            ],
+            "alignedWord": "naples",
+            "start": 137.27,
+            "startOffset": 1919,
+            "word": "Naples"
+        },
+        "query": "Naples Italy",
+        "word": "Naples",
+        "tfidf_score": 0.35177669932170563
+    },
+    {
+        "end": 2077,
+        "NER_token": {
+            "index": 15,
+            "word": "Amalfi",
+            "lemma": "Amalfi",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 2077,
+            "characterOffsetBegin": 2071,
+            "originalText": "Amalfi",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 2071,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 145.64,
+            "endOffset": 2076,
+            "phones": [
+                {
+                    "duration": 0.01,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 145.63,
+            "startOffset": 2070,
+            "word": "Amalfi"
+        },
+        "query": "Amalfi Coast",
+        "word": "Amalfi",
+        "tfidf_score": 0.24460365278876936
+    },
+    {
+        "end": 2209,
+        "NER_token": {
+            "index": 6,
+            "word": "California",
+            "lemma": "California",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 2209,
+            "characterOffsetBegin": 2199,
+            "originalText": "California",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 2199,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 151.98000000000002,
+            "endOffset": 2208,
+            "phones": [
+                {
+                    "duration": 0.06,
+                    "phone": "k_B"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "ae_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "f_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ao_I"
+                },
+                {
+                    "duration": 0.03,
+                    "phone": "r_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "n_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "y_I"
+                },
+                {
+                    "duration": 0.03,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "california",
+            "start": 151.46,
+            "startOffset": 2198,
+            "word": "California"
+        },
+        "query": "California",
+        "word": "California",
+        "tfidf_score": 0.25173739653657734
+    },
+    {
+        "end": 2298,
+        "NER_token": {
+            "index": 20,
+            "word": "Highway",
+            "lemma": "highway",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 2298,
+            "characterOffsetBegin": 2291,
+            "originalText": "Highway",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 2291,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 155.92,
+            "endOffset": 2297,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "hh_B"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "ay_I"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "w_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "ey_E"
+                }
+            ],
+            "alignedWord": "highway",
+            "start": 155.57,
+            "startOffset": 2290,
+            "word": "Highway"
+        },
+        "query": "Highway 1 California ",
+        "word": "Highway",
+        "tfidf_score": 0.2159616283771988
+    },
+    {
+        "end": 2415,
+        "NER_token": {
+            "index": 12,
+            "word": "Highway",
+            "lemma": "highway",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 2415,
+            "characterOffsetBegin": 2408,
+            "originalText": "Highway",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 2408,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 164.02,
+            "endOffset": 2414,
+            "phones": [
+                {
+                    "duration": 0.09,
+                    "phone": "hh_B"
+                },
+                {
+                    "duration": 0.11,
+                    "phone": "ay_I"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "w_I"
+                },
+                {
+                    "duration": 0.11,
+                    "phone": "ey_E"
+                }
+            ],
+            "alignedWord": "highway",
+            "start": 163.61,
+            "startOffset": 2407,
+            "word": "Highway"
+        },
+        "query": "Highway 1 California ",
+        "word": "Highway",
+        "tfidf_score": 0.2159616283771988
+    },
+    {
+        "end": 2652,
+        "NER_token": {
+            "index": 29,
+            "word": "underbelly",
+            "lemma": "underbelly",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 2652,
+            "characterOffsetBegin": 2642,
+            "originalText": "underbelly",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 2642,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 177.209999,
+            "endOffset": 2651,
+            "phones": [
+                {
+                    "duration": 0.06,
+                    "phone": "ah_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "n_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "d_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "er_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "b_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "eh_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "iy_E"
+                }
+            ],
+            "alignedWord": "underbelly",
+            "start": 176.719999,
+            "startOffset": 2641,
+            "word": "underbelly"
+        },
+        "query": "underbelly Amalfi Coast",
+        "word": "underbelly",
+        "tfidf_score": 0.20389471099022968
+    },
+    {
+        "end": 2735,
+        "NER_token": {
+            "index": 15,
+            "word": "Sorrento",
+            "lemma": "Sorrento",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 2735,
+            "characterOffsetBegin": 2727,
+            "originalText": "Sorrento",
+            "ner": "PERSON",
+            "before": " "
+        },
+        "start": 2727,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 180.60999900000002,
+            "endOffset": 2734,
+            "phones": [
+                {
+                    "duration": 0.15,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 180.459999,
+            "startOffset": 2726,
+            "word": "Sorrento"
+        },
+        "query": "Sorrento Amalfi Coast",
+        "word": "Sorrento",
+        "tfidf_score": 0.2543088657369913
+    },
+    {
+        "end": 2878,
+        "NER_token": {
+            "index": 23,
+            "word": "Amalfi",
+            "lemma": "Amalfi",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 2878,
+            "characterOffsetBegin": 2872,
+            "originalText": "Amalfi",
+            "ner": "PERSON",
+            "before": " "
+        },
+        "start": 2872,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 188.21,
+            "endOffset": 2877,
+            "phones": [
+                {
+                    "duration": 0.31,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 187.9,
+            "startOffset": 2871,
+            "word": "Amalfi"
+        },
+        "query": "Amalfi Amalfi Coast",
+        "word": "Amalfi",
+        "tfidf_score": 0.6139222249738724
+    },
+    {
+        "end": 3337,
+        "NER_token": {
+            "index": 24,
+            "word": "Rome",
+            "lemma": "Rome",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 3337,
+            "characterOffsetBegin": 3333,
+            "originalText": "Rome",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 3333,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 214.789999,
+            "endOffset": 3336,
+            "phones": [
+                {
+                    "duration": 0.09,
+                    "phone": "r_B"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "ow_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "m_E"
+                }
+            ],
+            "alignedWord": "rome",
+            "start": 214.539999,
+            "startOffset": 3332,
+            "word": "Rome"
+        },
+        "query": "Rome ",
+        "word": "Rome",
+        "tfidf_score": 0.20008166462729596
+    },
+    {
+        "end": 3499,
+        "NER_token": {
+            "index": 2,
+            "word": "Naples",
+            "lemma": "Naples",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 3499,
+            "characterOffsetBegin": 3493,
+            "originalText": "Naples",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 3493,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 225.47,
+            "endOffset": 3498,
+            "phones": [
+                {
+                    "duration": 0.17,
+                    "phone": "n_B"
+                },
+                {
+                    "duration": 0.11,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.14,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "z_E"
+                }
+            ],
+            "alignedWord": "naples",
+            "start": 224.82,
+            "startOffset": 3492,
+            "word": "Naples"
+        },
+        "query": "Naples Italy",
+        "word": "Naples",
+        "tfidf_score": 0.30012249694094395
+    },
+    {
+        "end": 3781,
+        "NER_token": {
+            "index": 15,
+            "word": "Mexico",
+            "lemma": "Mexico",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 3781,
+            "characterOffsetBegin": 3775,
+            "originalText": "Mexico",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 3775,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 248.85999999999999,
+            "endOffset": 3780,
+            "phones": [
+                {
+                    "duration": 0.09,
+                    "phone": "m_B"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "eh_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "k_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "k_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "ow_E"
+                }
+            ],
+            "alignedWord": "mexico",
+            "start": 248.41,
+            "startOffset": 3774,
+            "word": "Mexico"
+        },
+        "query": "Mexico ",
+        "word": "Mexico",
+        "tfidf_score": 0.1284907414008578
+    },
+    {
+        "end": 3865,
+        "NER_token": {
+            "index": 17,
+            "word": "Naples",
+            "lemma": "Naples",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 3865,
+            "characterOffsetBegin": 3859,
+            "originalText": "Naples",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 3859,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 253.13,
+            "endOffset": 3864,
+            "phones": [
+                {
+                    "duration": 0.06,
+                    "phone": "n_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "z_E"
+                }
+            ],
+            "alignedWord": "naples",
+            "start": 252.76,
+            "startOffset": 3858,
+            "word": "Naples"
+        },
+        "query": "Naples Italy",
+        "word": "Naples",
+        "tfidf_score": 0.30012249694094395
+    },
+    {
+        "end": 4282,
+        "NER_token": {
+            "index": 64,
+            "word": "Swatch",
+            "lemma": "Swatch",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 4282,
+            "characterOffsetBegin": 4276,
+            "originalText": "Swatch",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 4276,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 275.84,
+            "endOffset": 4281,
+            "phones": [
+                {
+                    "duration": 0.09,
+                    "phone": "s_B"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "w_I"
+                },
+                {
+                    "duration": 0.13,
+                    "phone": "aa_I"
+                },
+                {
+                    "duration": 0.14,
+                    "phone": "ch_E"
+                }
+            ],
+            "alignedWord": "swatch",
+            "start": 275.39,
+            "startOffset": 4275,
+            "word": "Swatch"
+        },
+        "query": "Swatch Naples Italy",
+        "word": "Swatch",
+        "tfidf_score": 0.3457821385902885
+    },
+    {
+        "end": 4461,
+        "NER_token": {
+            "index": 22,
+            "word": "Vespa",
+            "lemma": "vespa",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 4461,
+            "characterOffsetBegin": 4456,
+            "originalText": "Vespa",
+            "ner": "ORGANIZATION",
+            "before": " "
+        },
+        "start": 4456,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 286.509999,
+            "endOffset": 4460,
+            "phones": [
+                {
+                    "duration": 0.58,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 285.929999,
+            "startOffset": 4455,
+            "word": "Vespa"
+        },
+        "query": "Vespa Naples Italy",
+        "word": "Vespa",
+        "tfidf_score": 0.6230444911950259
+    },
+    {
+        "end": 4919,
+        "NER_token": {
+            "index": 14,
+            "word": "Naples",
+            "lemma": "Naples",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 4919,
+            "characterOffsetBegin": 4913,
+            "originalText": "Naples",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 4913,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 309.6,
+            "endOffset": 4918,
+            "phones": [
+                {
+                    "duration": 0.06,
+                    "phone": "n_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.03,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "z_E"
+                }
+            ],
+            "alignedWord": "naples",
+            "start": 309.18,
+            "startOffset": 4912,
+            "word": "Naples"
+        },
+        "query": "Naples Italy",
+        "word": "Naples",
+        "tfidf_score": 0.24000131003995112
+    },
+    {
+        "end": 4963,
+        "NER_token": {
+            "index": 5,
+            "word": "pizza",
+            "lemma": "pizza",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 4963,
+            "characterOffsetBegin": 4958,
+            "originalText": "pizza",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 4958,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 312.75,
+            "endOffset": 4962,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.18,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizza",
+            "start": 312.3,
+            "startOffset": 4957,
+            "word": "pizza"
+        },
+        "query": "pizza Naples Italy",
+        "word": "pizza",
+        "tfidf_score": 0.7414912800956843
+    },
+    {
+        "end": 5024,
+        "NER_token": {
+            "index": 1,
+            "word": "Pizza",
+            "lemma": "Pizza",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 5024,
+            "characterOffsetBegin": 5019,
+            "originalText": "Pizza",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 5019,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 317.6,
+            "endOffset": 5023,
+            "phones": [
+                {
+                    "duration": 0.08,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizza",
+            "start": 317.29,
+            "startOffset": 5018,
+            "word": "Pizza"
+        },
+        "query": "Pizza Naples Italy",
+        "word": "Pizza",
+        "tfidf_score": 0.7414912800956843
+    },
+    {
+        "end": 5132,
+        "NER_token": {
+            "index": 12,
+            "word": "pizza",
+            "lemma": "pizza",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 5132,
+            "characterOffsetBegin": 5127,
+            "originalText": "pizza",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 5127,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 322.95,
+            "endOffset": 5131,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.01,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizza",
+            "start": 322.67,
+            "startOffset": 5126,
+            "word": "pizza"
+        },
+        "query": "pizza Margherita Naples Italy",
+        "word": "pizza",
+        "tfidf_score": 0.7414912800956843
+    },
+    {
+        "end": 5262,
+        "NER_token": {
+            "index": 6,
+            "word": "sauce",
+            "lemma": "sauce",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 5262,
+            "characterOffsetBegin": 5257,
+            "originalText": "sauce",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 5257,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 328.33,
+            "endOffset": 5261,
+            "phones": [
+                {
+                    "duration": 0.14,
+                    "phone": "s_B"
+                },
+                {
+                    "duration": 0.2,
+                    "phone": "ao_I"
+                },
+                {
+                    "duration": 0.19,
+                    "phone": "s_E"
+                }
+            ],
+            "alignedWord": "sauce",
+            "start": 327.8,
+            "startOffset": 5256,
+            "word": "sauce"
+        },
+        "query": "red sauce Naples Italy",
+        "word": "sauce",
+        "tfidf_score": 0.18963275608208333
+    },
+    {
+        "end": 5413,
+        "NER_token": {
+            "index": 17,
+            "word": "pizzeria",
+            "lemma": "pizzeria",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 5413,
+            "characterOffsetBegin": 5405,
+            "originalText": "pizzeria",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 5405,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 342.800001,
+            "endOffset": 5412,
+            "phones": [
+                {
+                    "duration": 0.08,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.13,
+                    "phone": "er_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.13,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizzeria",
+            "start": 342.190001,
+            "startOffset": 5404,
+            "word": "pizzeria"
+        },
+        "query": "pizzeria Naples Italy",
+        "word": "pizzeria",
+        "tfidf_score": 0.27651431364178947
+    },
+    {
+        "end": 5507,
+        "NER_token": {
+            "index": 24,
+            "word": "pizza",
+            "lemma": "pizza",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 5507,
+            "characterOffsetBegin": 5502,
+            "originalText": "pizza",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 5502,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 346.46000000000004,
+            "endOffset": 5506,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.03,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizza",
+            "start": 346.17,
+            "startOffset": 5501,
+            "word": "pizza"
+        },
+        "query": "pizza Naples Italy",
+        "word": "pizza",
+        "tfidf_score": 0.7414912800956843
+    },
+    {
+        "end": 5605,
+        "NER_token": {
+            "index": 8,
+            "word": "Pizzeria",
+            "lemma": "Pizzeria",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 5605,
+            "characterOffsetBegin": 5597,
+            "originalText": "Pizzeria",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 5597,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 352.38,
+            "endOffset": 5604,
+            "phones": [
+                {
+                    "duration": 0.04,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "er_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizzeria",
+            "start": 351.96,
+            "startOffset": 5596,
+            "word": "Pizzeria"
+        },
+        "query": "Michele Pizzeria Naples Italy",
+        "word": "Pizzeria",
+        "tfidf_score": 0.27651431364178947
+    },
+    {
+        "end": 5657,
+        "NER_token": {
+            "index": 12,
+            "word": "pizza",
+            "lemma": "pizza",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 5657,
+            "characterOffsetBegin": 5652,
+            "originalText": "pizza",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 5652,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 356.78999899999997,
+            "endOffset": 5656,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.01,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizza",
+            "start": 356.509999,
+            "startOffset": 5651,
+            "word": "pizza"
+        },
+        "query": "bad pizza Naples Italy",
+        "word": "pizza",
+        "tfidf_score": 0.7414912800956843
+    },
+    {
+        "end": 5821,
+        "NER_token": {
+            "index": 20,
+            "word": "pizza",
+            "lemma": "pizza",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 5821,
+            "characterOffsetBegin": 5816,
+            "originalText": "pizza",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 5816,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 364.71000000000004,
+            "endOffset": 5820,
+            "phones": [
+                {
+                    "duration": 0.1,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.27,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizza",
+            "start": 364.1,
+            "startOffset": 5815,
+            "word": "pizza"
+        },
+        "query": "Naples pizza Naples Italy",
+        "word": "pizza",
+        "tfidf_score": 0.7414912800956843
+    },
+    {
+        "end": 5878,
+        "NER_token": {
+            "index": 8,
+            "word": "pizza",
+            "lemma": "pizza",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 5878,
+            "characterOffsetBegin": 5873,
+            "originalText": "pizza",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 5873,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 370.18,
+            "endOffset": 5877,
+            "phones": [
+                {
+                    "duration": 0.05,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.15,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizza",
+            "start": 369.8,
+            "startOffset": 5872,
+            "word": "pizza"
+        },
+        "query": "crust floppy pizza Naples Italy",
+        "word": "pizza",
+        "tfidf_score": 0.7414912800956843
+    },
+    {
+        "end": 6040,
+        "NER_token": {
+            "index": 23,
+            "word": "pizza",
+            "lemma": "pizza",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 6040,
+            "characterOffsetBegin": 6035,
+            "originalText": "pizza",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 6035,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 381.81,
+            "endOffset": 6039,
+            "phones": [
+                {
+                    "duration": 0.12,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.16,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizza",
+            "start": 381.32,
+            "startOffset": 6034,
+            "word": "pizza"
+        },
+        "query": "Pizza ",
+        "word": "pizza",
+        "tfidf_score": 0.43481135814181
+    },
+    {
+        "end": 6214,
+        "NER_token": {
+            "index": 25,
+            "word": "pizza",
+            "lemma": "pizza",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 6214,
+            "characterOffsetBegin": 6209,
+            "originalText": "pizza",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 6209,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 396.06,
+            "endOffset": 6213,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "p_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.15,
+                    "phone": "ah_E"
+                }
+            ],
+            "alignedWord": "pizza",
+            "start": 395.65,
+            "startOffset": 6208,
+            "word": "pizza"
+        },
+        "query": "pizza Naples Italy",
+        "word": "pizza",
+        "tfidf_score": 0.43481135814181
+    },
+    {
+        "end": 6392,
+        "NER_token": {
+            "index": 25,
+            "word": "Archeological",
+            "lemma": "Archeological",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 6392,
+            "characterOffsetBegin": 6379,
+            "originalText": "Archeological",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 6379,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 410.0,
+            "endOffset": 6391,
+            "phones": [
+                {
+                    "duration": 0.51,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 409.49,
+            "startOffset": 6378,
+            "word": "Archeological"
+        },
+        "query": "Pompeii ",
+        "word": "Archeological",
+        "tfidf_score": 0.5382288865956089
+    },
+    {
+        "end": 6557,
+        "NER_token": {
+            "index": 16,
+            "word": "Pompeii",
+            "lemma": "Pompeii",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 6557,
+            "characterOffsetBegin": 6550,
+            "originalText": "Pompeii",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 6550,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 421.14000000000004,
+            "endOffset": 6556,
+            "phones": [
+                {
+                    "duration": 1.1,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 420.04,
+            "startOffset": 6549,
+            "word": "Pompeii"
+        },
+        "query": "Pompeii ",
+        "word": "Pompeii",
+        "tfidf_score": 0.26366255905738833
+    },
+    {
+        "end": 6668,
+        "NER_token": {
+            "index": 8,
+            "word": "Herculaneum",
+            "lemma": "Herculaneum",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 6668,
+            "characterOffsetBegin": 6657,
+            "originalText": "Herculaneum",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 6657,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 427.13,
+            "endOffset": 6667,
+            "phones": [
+                {
+                    "duration": 0.01,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 427.12,
+            "startOffset": 6656,
+            "word": "Herculaneum"
+        },
+        "query": "Herculaneum ",
+        "word": "Herculaneum",
+        "tfidf_score": 0.6568586518246489
+    },
+    {
+        "end": 6903,
+        "NER_token": {
+            "index": 16,
+            "word": "Vesuvius",
+            "lemma": "Vesuvius",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 6903,
+            "characterOffsetBegin": 6895,
+            "originalText": "Vesuvius",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 6895,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 442.92999999999995,
+            "endOffset": 6902,
+            "phones": [
+                {
+                    "duration": 0.06,
+                    "phone": "v_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.12,
+                    "phone": "s_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "uw_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "v_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.14,
+                    "phone": "s_E"
+                }
+            ],
+            "alignedWord": "vesuvius",
+            "start": 442.28,
+            "startOffset": 6894,
+            "word": "Vesuvius"
+        },
+        "query": "Vesuvius ",
+        "word": "Vesuvius",
+        "tfidf_score": 0.3042695382358081
+    },
+    {
+        "end": 6996,
+        "NER_token": {
+            "index": 18,
+            "word": "Naples",
+            "lemma": "Naples",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 6996,
+            "characterOffsetBegin": 6990,
+            "originalText": "Naples",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 6990,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 450.86,
+            "endOffset": 6995,
+            "phones": [
+                {
+                    "duration": 0.05,
+                    "phone": "n_B"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.02,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "z_E"
+                }
+            ],
+            "alignedWord": "naples",
+            "start": 450.54,
+            "startOffset": 6989,
+            "word": "Naples"
+        },
+        "query": "Naples Italy",
+        "word": "Naples",
+        "tfidf_score": 0.1760610190965745
+    },
+    {
+        "end": 7110,
+        "NER_token": {
+            "index": 10,
+            "word": "Pompeii",
+            "lemma": "Pompeii",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 7110,
+            "characterOffsetBegin": 7103,
+            "originalText": "Pompeii",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 7103,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 457.34,
+            "endOffset": 7109,
+            "phones": [
+                {
+                    "duration": 0.38,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 456.96,
+            "startOffset": 7102,
+            "word": "Pompeii"
+        },
+        "query": "Pompeii ",
+        "word": "Pompeii",
+        "tfidf_score": 0.40480355071742435
+    },
+    {
+        "end": 7447,
+        "NER_token": {
+            "index": 16,
+            "word": "Herculaneum",
+            "lemma": "Herculaneum",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 7447,
+            "characterOffsetBegin": 7436,
+            "originalText": "Herculaneum",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 7436,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 479.13,
+            "endOffset": 7446,
+            "phones": [
+                {
+                    "duration": 0.43,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 478.7,
+            "startOffset": 7435,
+            "word": "Herculaneum"
+        },
+        "query": "Herculaneum ",
+        "word": "Herculaneum",
+        "tfidf_score": 0.6568586518246489
+    },
+    {
+        "end": 7514,
+        "NER_token": {
+            "index": 10,
+            "word": "Herculaneum",
+            "lemma": "Herculaneum",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 7514,
+            "characterOffsetBegin": 7503,
+            "originalText": "Herculaneum",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 7503,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 481.78000000000003,
+            "endOffset": 7513,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 481.71,
+            "startOffset": 7502,
+            "word": "Herculaneum"
+        },
+        "query": "Herculaneum ",
+        "word": "Herculaneum",
+        "tfidf_score": 0.6568586518246489
+    },
+    {
+        "end": 7798,
+        "NER_token": {
+            "index": 17,
+            "word": "Pompeii",
+            "lemma": "Pompeii",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 7798,
+            "characterOffsetBegin": 7791,
+            "originalText": "Pompeii",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 7791,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 498.78000000000003,
+            "endOffset": 7797,
+            "phones": [
+                {
+                    "duration": 0.37,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 498.41,
+            "startOffset": 7790,
+            "word": "Pompeii"
+        },
+        "query": "Pompeii ",
+        "word": "Pompeii",
+        "tfidf_score": 0.2944315636784101
+    },
+    {
+        "end": 7956,
+        "NER_token": {
+            "index": 8,
+            "word": "brothel",
+            "lemma": "brothel",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 7956,
+            "characterOffsetBegin": 7949,
+            "originalText": "brothel",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 7949,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 512.48,
+            "endOffset": 7955,
+            "phones": [
+                {
+                    "duration": 0.06,
+                    "phone": "b_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "r_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "aa_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "th_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.17,
+                    "phone": "l_E"
+                }
+            ],
+            "alignedWord": "brothel",
+            "start": 511.98,
+            "startOffset": 7948,
+            "word": "brothel"
+        },
+        "query": "brothel Naples Italy",
+        "word": "brothel",
+        "tfidf_score": 0.2661547652207568
+    },
+    {
+        "end": 8116,
+        "NER_token": {
+            "index": 10,
+            "word": "Pompeii",
+            "lemma": "Pompeii",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 8116,
+            "characterOffsetBegin": 8109,
+            "originalText": "Pompeii",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 8109,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 521.980001,
+            "endOffset": 8115,
+            "phones": [
+                {
+                    "duration": 0.54,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 521.440001,
+            "startOffset": 8108,
+            "word": "Pompeii"
+        },
+        "query": "Pompeii ",
+        "word": "Pompeii",
+        "tfidf_score": 0.2944315636784101
+    },
+    {
+        "end": 8325,
+        "NER_token": {
+            "index": 4,
+            "word": "sarcophagus",
+            "lemma": "sarcophagus",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 8325,
+            "characterOffsetBegin": 8314,
+            "originalText": "sarcophagus",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 8314,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 526.47,
+            "endOffset": 8324,
+            "phones": [
+                {
+                    "duration": 0.01,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 526.46,
+            "startOffset": 8313,
+            "word": "sarcophagus"
+        },
+        "query": "sarcophagus Naples Italy",
+        "word": "sarcophagus",
+        "tfidf_score": 0.33196308096990934
+    },
+    {
+        "end": 8360,
+        "NER_token": {
+            "index": 6,
+            "word": "casting",
+            "lemma": "casting",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 8360,
+            "characterOffsetBegin": 8353,
+            "originalText": "casting",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 8353,
+        "api": "images",
+        "gentle_token": {
+            "case": "not-found-in-audio",
+            "word": "casting",
+            "startOffset": 8352,
+            "endOffset": 8359
+        },
+        "query": "casting Naples Italy",
+        "word": "casting",
+        "tfidf_score": 0.2003464494716043
+    },
+    {
+        "end": 9392,
+        "NER_token": {
+            "index": 22,
+            "word": "UNESCO",
+            "lemma": "UNESCO",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 9392,
+            "characterOffsetBegin": 9386,
+            "originalText": "UNESCO",
+            "ner": "ORGANIZATION",
+            "before": " "
+        },
+        "start": 9386,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 589.44,
+            "endOffset": 9391,
+            "phones": [
+                {
+                    "duration": 0.37,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 589.07,
+            "startOffset": 9385,
+            "word": "UNESCO"
+        },
+        "query": "UNESCO Pompeii ",
+        "word": "UNESCO",
+        "tfidf_score": 0.4584236634029501
+    },
+    {
+        "end": 9616,
+        "NER_token": {
+            "index": 7,
+            "word": "opposite",
+            "lemma": "opposite",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 9616,
+            "characterOffsetBegin": 9608,
+            "originalText": "opposite",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 9608,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 600.7,
+            "endOffset": 9615,
+            "phones": [
+                {
+                    "duration": 0.09,
+                    "phone": "aa_B"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.02,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.11,
+                    "phone": "z_I"
+                },
+                {
+                    "duration": 0.19,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "t_E"
+                }
+            ],
+            "alignedWord": "opposite",
+            "start": 600.12,
+            "startOffset": 9607,
+            "word": "opposite"
+        },
+        "query": "polar opposite Herculaneum ",
+        "word": "opposite",
+        "tfidf_score": 0.18626264496185632
+    },
+    {
+        "end": 9890,
+        "NER_token": {
+            "index": 45,
+            "word": "Archeological",
+            "lemma": "Archeological",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 9890,
+            "characterOffsetBegin": 9877,
+            "originalText": "Archeological",
+            "ner": "ORGANIZATION",
+            "before": " "
+        },
+        "start": 9877,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 617.61,
+            "endOffset": 9889,
+            "phones": [
+                {
+                    "duration": 0.52,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 617.09,
+            "startOffset": 9876,
+            "word": "Archeological"
+        },
+        "query": "Naples Archeological Pompeii ",
+        "word": "Archeological",
+        "tfidf_score": 0.3885463996644804
+    },
+    {
+        "end": 10011,
+        "NER_token": {
+            "index": 18,
+            "word": "Italy",
+            "lemma": "Italy",
+            "after": "",
+            "pos": "NNP",
+            "characterOffsetEnd": 10011,
+            "characterOffsetBegin": 10006,
+            "originalText": "Italy",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 10006,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 624.73,
+            "endOffset": 10010,
+            "phones": [
+                {
+                    "duration": 0.12,
+                    "phone": "ih_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.17,
+                    "phone": "iy_E"
+                }
+            ],
+            "alignedWord": "italy",
+            "start": 624.23,
+            "startOffset": 10005,
+            "word": "Italy"
+        },
+        "query": "Naples Italy",
+        "word": "Italy",
+        "tfidf_score": 0.14058303392326174
+    },
+    {
+        "end": 10427,
+        "NER_token": {
+            "index": 66,
+            "word": "booking",
+            "lemma": "booking",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 10427,
+            "characterOffsetBegin": 10420,
+            "originalText": "booking",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 10420,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 650.699999,
+            "endOffset": 10426,
+            "phones": [
+                {
+                    "duration": 0.08,
+                    "phone": "b_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "uh_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "k_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "ih_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "ng_E"
+                }
+            ],
+            "alignedWord": "booking",
+            "start": 650.2999990000001,
+            "startOffset": 10419,
+            "word": "booking"
+        },
+        "query": "villa booking Naples Italy",
+        "word": "booking",
+        "tfidf_score": 0.26232984270646986
+    },
+    {
+        "end": 10561,
+        "NER_token": {
+            "index": 20,
+            "word": "Italy",
+            "lemma": "Italy",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 10561,
+            "characterOffsetBegin": 10556,
+            "originalText": "Italy",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 10556,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 659.15,
+            "endOffset": 10560,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "ih_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.13,
+                    "phone": "iy_E"
+                }
+            ],
+            "alignedWord": "italy",
+            "start": 658.78,
+            "startOffset": 10555,
+            "word": "Italy"
+        },
+        "query": "Naples Italy",
+        "word": "Italy",
+        "tfidf_score": 0.13823636623199798
+    },
+    {
+        "end": 10650,
+        "NER_token": {
+            "index": 12,
+            "word": "Shanghai",
+            "lemma": "Shanghai",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 10650,
+            "characterOffsetBegin": 10642,
+            "originalText": "Shanghai",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 10642,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 664.719999,
+            "endOffset": 10649,
+            "phones": [
+                {
+                    "duration": 0.14,
+                    "phone": "sh_B"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "ae_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "ng_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "hh_I"
+                },
+                {
+                    "duration": 0.28,
+                    "phone": "ay_E"
+                }
+            ],
+            "alignedWord": "shanghai",
+            "start": 664.029999,
+            "startOffset": 10641,
+            "word": "Shanghai"
+        },
+        "query": "Shanghai ",
+        "word": "Shanghai",
+        "tfidf_score": 0.32173079853486114
+    },
+    {
+        "end": 10863,
+        "NER_token": {
+            "index": 6,
+            "word": "Naples",
+            "lemma": "Naples",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 10863,
+            "characterOffsetBegin": 10857,
+            "originalText": "Naples",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 10857,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 679.999999,
+            "endOffset": 10862,
+            "phones": [
+                {
+                    "duration": 0.09,
+                    "phone": "n_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.03,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "z_E"
+                }
+            ],
+            "alignedWord": "naples",
+            "start": 679.639999,
+            "startOffset": 10856,
+            "word": "Naples"
+        },
+        "query": "Naples Italy",
+        "word": "Naples",
+        "tfidf_score": 0.09308235815065918
+    },
+    {
+        "end": 11082,
+        "NER_token": {
+            "index": 8,
+            "word": "seer",
+            "lemma": "seer",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 11082,
+            "characterOffsetBegin": 11078,
+            "originalText": "seer",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 11078,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 691.91,
+            "endOffset": 11081,
+            "phones": [
+                {
+                    "duration": 0.48,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 691.43,
+            "startOffset": 11077,
+            "word": "seer"
+        },
+        "query": "site seer Pompeii ",
+        "word": "seer",
+        "tfidf_score": 0.3843844745965667
+    },
+    {
+        "end": 11224,
+        "NER_token": {
+            "index": 6,
+            "word": "season",
+            "lemma": "season",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 11224,
+            "characterOffsetBegin": 11218,
+            "originalText": "season",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 11218,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 702.05,
+            "endOffset": 11223,
+            "phones": [
+                {
+                    "duration": 0.1,
+                    "phone": "s_B"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "z_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.01,
+                    "phone": "n_E"
+                }
+            ],
+            "alignedWord": "season",
+            "start": 701.75,
+            "startOffset": 11217,
+            "word": "season"
+        },
+        "query": "shoulder season Naples Italy",
+        "word": "season",
+        "tfidf_score": 0.40963905212020146
+    },
+    {
+        "end": 11341,
+        "NER_token": {
+            "index": 29,
+            "word": "shoulder",
+            "lemma": "shoulder",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 11341,
+            "characterOffsetBegin": 11333,
+            "originalText": "shoulder",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 11333,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 708.39,
+            "endOffset": 11340,
+            "phones": [
+                {
+                    "duration": 0.12,
+                    "phone": "sh_B"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "ow_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "d_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "er_E"
+                }
+            ],
+            "alignedWord": "shoulder",
+            "start": 707.97,
+            "startOffset": 11332,
+            "word": "shoulder"
+        },
+        "query": "shoulder season Naples Italy",
+        "word": "shoulder",
+        "tfidf_score": 0.30722928909015107
+    },
+    {
+        "end": 11547,
+        "NER_token": {
+            "index": 45,
+            "word": "season",
+            "lemma": "season",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 11547,
+            "characterOffsetBegin": 11541,
+            "originalText": "season",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 11541,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 721.4499999999999,
+            "endOffset": 11546,
+            "phones": [
+                {
+                    "duration": 0.15,
+                    "phone": "s_B"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "z_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.25,
+                    "phone": "n_E"
+                }
+            ],
+            "alignedWord": "season",
+            "start": 720.8,
+            "startOffset": 11540,
+            "word": "season"
+        },
+        "query": "high season Naples Italy",
+        "word": "season",
+        "tfidf_score": 0.40963905212020146
+    },
+    {
+        "end": 11598,
+        "NER_token": {
+            "index": 10,
+            "word": "reference",
+            "lemma": "reference",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 11598,
+            "characterOffsetBegin": 11589,
+            "originalText": "reference",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 11589,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 724.9699999999999,
+            "endOffset": 11597,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "r_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "eh_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "f_I"
+                },
+                {
+                    "duration": 0.03,
+                    "phone": "r_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "n_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "s_E"
+                }
+            ],
+            "alignedWord": "reference",
+            "start": 724.56,
+            "startOffset": 11588,
+            "word": "reference"
+        },
+        "query": "Positano ",
+        "word": "reference",
+        "tfidf_score": 0.18852557934958486
+    },
+    {
+        "end": 11944,
+        "NER_token": {
+            "index": 20,
+            "word": "Positano",
+            "lemma": "Positano",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 11944,
+            "characterOffsetBegin": 11936,
+            "originalText": "Positano",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 11936,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 745.07,
+            "endOffset": 11943,
+            "phones": [
+                {
+                    "duration": 0.5,
+                    "phone": "oov_S"
+                }
+            ],
+            "alignedWord": "<unk>",
+            "start": 744.57,
+            "startOffset": 11935,
+            "word": "Positano"
+        },
+        "query": "Positano ",
+        "word": "Positano",
+        "tfidf_score": 0.53085490718174
+    },
+    {
+        "end": 12075,
+        "NER_token": {
+            "index": 25,
+            "word": "beach",
+            "lemma": "beach",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 12075,
+            "characterOffsetBegin": 12070,
+            "originalText": "beach",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 12070,
+        "api": "images",
+        "gentle_token": {
+            "case": "not-found-in-audio",
+            "word": "beach",
+            "startOffset": 12069,
+            "endOffset": 12074
+        },
+        "query": "beach Positano ",
+        "word": "beach",
+        "tfidf_score": 0.4363790024537585
+    },
+    {
+        "end": 12122,
+        "NER_token": {
+            "index": 10,
+            "word": "beach",
+            "lemma": "beach",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 12122,
+            "characterOffsetBegin": 12117,
+            "originalText": "beach",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 12117,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 754.549999,
+            "endOffset": 12121,
+            "phones": [
+                {
+                    "duration": 0.08,
+                    "phone": "b_B"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "ch_E"
+                }
+            ],
+            "alignedWord": "beach",
+            "start": 754.309999,
+            "startOffset": 12116,
+            "word": "beach"
+        },
+        "query": "nice beach Naples Italy",
+        "word": "beach",
+        "tfidf_score": 0.4363790024537585
+    },
+    {
+        "end": 12289,
+        "NER_token": {
+            "index": 15,
+            "word": "Caribbean",
+            "lemma": "Caribbean",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 12289,
+            "characterOffsetBegin": 12280,
+            "originalText": "Caribbean",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 12280,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 761.7299999999999,
+            "endOffset": 12288,
+            "phones": [
+                {
+                    "duration": 0.09,
+                    "phone": "k_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "er_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "ih_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "b_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "n_E"
+                }
+            ],
+            "alignedWord": "caribbean",
+            "start": 761.3,
+            "startOffset": 12279,
+            "word": "Caribbean"
+        },
+        "query": "Caribbean ",
+        "word": "Caribbean",
+        "tfidf_score": 0.3774034256372518
+    },
+    {
+        "end": 12343,
+        "NER_token": {
+            "index": 7,
+            "word": "beach",
+            "lemma": "beach",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 12343,
+            "characterOffsetBegin": 12338,
+            "originalText": "beach",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 12338,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 764.279999,
+            "endOffset": 12342,
+            "phones": [
+                {
+                    "duration": 0.05,
+                    "phone": "b_B"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "ch_E"
+                }
+            ],
+            "alignedWord": "beach",
+            "start": 764.059999,
+            "startOffset": 12337,
+            "word": "beach"
+        },
+        "query": "beach scene Naples Italy",
+        "word": "beach",
+        "tfidf_score": 0.4363790024537585
+    },
+    {
+        "end": 12488,
+        "NER_token": {
+            "index": 32,
+            "word": "beach",
+            "lemma": "beach",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 12488,
+            "characterOffsetBegin": 12483,
+            "originalText": "beach",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 12483,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 772.57,
+            "endOffset": 12487,
+            "phones": [
+                {
+                    "duration": 0.09,
+                    "phone": "b_B"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.15,
+                    "phone": "ch_E"
+                }
+            ],
+            "alignedWord": "beach",
+            "start": 772.25,
+            "startOffset": 12482,
+            "word": "beach"
+        },
+        "query": "nice beach Caribbean ",
+        "word": "beach",
+        "tfidf_score": 0.4363790024537585
+    },
+    {
+        "end": 12612,
+        "NER_token": {
+            "index": 14,
+            "word": "teaser",
+            "lemma": "teaser",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 12612,
+            "characterOffsetBegin": 12606,
+            "originalText": "teaser",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 12606,
+        "api": "maps",
+        "gentle_token": {
+            "case": "success",
+            "end": 779.91,
+            "endOffset": 12611,
+            "phones": [
+                {
+                    "duration": 0.13,
+                    "phone": "t_B"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "z_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "er_E"
+                }
+            ],
+            "alignedWord": "teaser",
+            "start": 779.51,
+            "startOffset": 12605,
+            "word": "teaser"
+        },
+        "query": "Sardinia ",
+        "word": "teaser",
+        "tfidf_score": 0.2516392657909707
+    },
+    {
+        "end": 12717,
+        "NER_token": {
+            "index": 8,
+            "word": "Italy",
+            "lemma": "Italy",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 12717,
+            "characterOffsetBegin": 12712,
+            "originalText": "Italy",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 12712,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 787.45,
+            "endOffset": 12716,
+            "phones": [
+                {
+                    "duration": 0.04,
+                    "phone": "ih_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "t_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.12,
+                    "phone": "iy_E"
+                }
+            ],
+            "alignedWord": "italy",
+            "start": 787.11,
+            "startOffset": 12711,
+            "word": "Italy"
+        },
+        "query": "Naples Italy",
+        "word": "Italy",
+        "tfidf_score": 0.03604016967253706
+    },
+    {
+        "end": 12920,
+        "NER_token": {
+            "index": 10,
+            "word": "museum",
+            "lemma": "museum",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 12920,
+            "characterOffsetBegin": 12914,
+            "originalText": "museum",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 12914,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 797.37,
+            "endOffset": 12919,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "m_B"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "y_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "uw_I"
+                },
+                {
+                    "duration": 0.11,
+                    "phone": "z_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "m_E"
+                }
+            ],
+            "alignedWord": "museum",
+            "start": 796.76,
+            "startOffset": 12913,
+            "word": "museum"
+        },
+        "query": "museum Naples Italy",
+        "word": "museum",
+        "tfidf_score": 0.3640182470840763
+    },
+    {
+        "end": 12981,
+        "NER_token": {
+            "index": 10,
+            "word": "museum",
+            "lemma": "museum",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 12981,
+            "characterOffsetBegin": 12975,
+            "originalText": "museum",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 12975,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 800.0300000000001,
+            "endOffset": 12980,
+            "phones": [
+                {
+                    "duration": 0.04,
+                    "phone": "m_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "y_I"
+                },
+                {
+                    "duration": 0.03,
+                    "phone": "uw_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "z_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "m_E"
+                }
+            ],
+            "alignedWord": "museum",
+            "start": 799.69,
+            "startOffset": 12974,
+            "word": "museum"
+        },
+        "query": "archeological museum Naples Italy",
+        "word": "museum",
+        "tfidf_score": 0.3640182470840763
+    },
+    {
+        "end": 13075,
+        "NER_token": {
+            "index": 15,
+            "word": "museum",
+            "lemma": "museum",
+            "after": "",
+            "pos": "NN",
+            "characterOffsetEnd": 13075,
+            "characterOffsetBegin": 13069,
+            "originalText": "museum",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 13069,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 805.239999,
+            "endOffset": 13074,
+            "phones": [
+                {
+                    "duration": 0.03,
+                    "phone": "m_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "y_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "uw_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "z_I"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.07,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.15,
+                    "phone": "m_E"
+                }
+            ],
+            "alignedWord": "museum",
+            "start": 804.759999,
+            "startOffset": 13068,
+            "word": "museum"
+        },
+        "query": "art museum Naples Italy",
+        "word": "museum",
+        "tfidf_score": 0.3640182470840763
+    },
+    {
+        "end": 13278,
+        "NER_token": {
+            "index": 6,
+            "word": "museum",
+            "lemma": "museum",
+            "after": " ",
+            "pos": "NN",
+            "characterOffsetEnd": 13278,
+            "characterOffsetBegin": 13272,
+            "originalText": "museum",
+            "ner": "O",
+            "before": " "
+        },
+        "start": 13272,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 820.23,
+            "endOffset": 13277,
+            "phones": [
+                {
+                    "duration": 0.04,
+                    "phone": "m_B"
+                },
+                {
+                    "duration": 0.06,
+                    "phone": "y_I"
+                },
+                {
+                    "duration": 0.04,
+                    "phone": "uw_I"
+                },
+                {
+                    "duration": 0.1,
+                    "phone": "z_I"
+                },
+                {
+                    "duration": 0.09,
+                    "phone": "iy_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.16,
+                    "phone": "m_E"
+                }
+            ],
+            "alignedWord": "museum",
+            "start": 819.66,
+            "startOffset": 13271,
+            "word": "museum"
+        },
+        "query": "nice museum Naples Italy",
+        "word": "museum",
+        "tfidf_score": 0.3640182470840763
+    },
+    {
+        "end": 13442,
+        "NER_token": {
+            "index": 19,
+            "word": "Naples",
+            "lemma": "Naples",
+            "after": " ",
+            "pos": "NNP",
+            "characterOffsetEnd": 13442,
+            "characterOffsetBegin": 13436,
+            "originalText": "Naples",
+            "ner": "LOCATION",
+            "before": " "
+        },
+        "start": 13436,
+        "api": "images",
+        "gentle_token": {
+            "case": "success",
+            "end": 828.65,
+            "endOffset": 13441,
+            "phones": [
+                {
+                    "duration": 0.07,
+                    "phone": "n_B"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "ey_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "p_I"
+                },
+                {
+                    "duration": 0.02,
+                    "phone": "ah_I"
+                },
+                {
+                    "duration": 0.05,
+                    "phone": "l_I"
+                },
+                {
+                    "duration": 0.08,
+                    "phone": "z_E"
+                }
+            ],
+            "alignedWord": "naples",
+            "start": 828.3,
+            "startOffset": 13435,
+            "word": "Naples"
+        },
+        "query": "Naples Italy",
+        "word": "Naples",
+        "tfidf_score": 0.2184109482504458
+    }
+]

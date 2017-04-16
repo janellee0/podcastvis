@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Podcast Visualizer</title>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/style/examples.css">
+	<link rel="stylesheet" href="https://openlayers.org/en/v4.0.1/css/ol.css" type="text/css">
+	<script src="https://openlayers.org/en/v4.0.1/build/ol.js"></script>
+</head>
+
+<body>
+	<div>
+		<div id="image_div" style="height:500px">&nbsp;</div>
+		<div id="vis_description"></div>
+		<div align="center">
+			<audio id="audio" src="static/data/philippines/philippines.mp3" ontimeupdate="updateView(this)" style="width:650px" controls="true"></audio>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var def = "static/data/philippines/images/";
+		var prev = "static/data/philippines/images/";
+		var player = document.getElementById("audio");
+		var image_div = document.getElementById("image_div");
+		function updateView() {
+				// img = new Image();
+				var src = "static/data/philippines/images/";
+				if (player.currentTime > 24 && player.currentTime < 27) {
+					src += "philippines_map.jpg";
+				} else if (player.currentTime > 37 && player.currentTime < 40 ) {
+					src += "philippines_1.jpg";
+				} else if (player.currentTime > 53 && player.currentTime < 56) {
+					src += "philippines_2.jpg";
+				} else if (player.currentTime > 63 && player.currentTime < 66 ) {
+					src += "bohol_map.jpg";
+				} else if (player.currentTime > 79 && player.currentTime < 81 ) {
+					src += "luzon_map.jpg";
+				} else if (player.currentTime > 84 && player.currentTime < 87 ) {
+					src += "cordillera_map.jpg";
+				} else if (player.currentTime > 95 && player.currentTime < 97 ) {
+					src += "palawan_map.jpg";
+				} else if (player.currentTime > 151 && player.currentTime < 154 ) {
+					src += "luzon_1.jpg";
+				} else if (player.currentTime > 157 && player.currentTime < 159 ) {
+					src += "cordillera_1.jpg";
+				} else if (player.currentTime > 171 && player.currentTime < 174 ) {
+					src += "unesco.jpg";
+				} else if (player.currentTime > 213 && player.currentTime < 216 ) {
+					src += "cordillera_2.jpg";
+				} else if (player.currentTime > 236 && player.currentTime < 238 ) {
+					src += "cordillera_3.jpg";
+				} else if (player.currentTime > 240 && player.currentTime < 243 ) {
+					src += "manila_map.jpg";
+				}
+				if (src != prev && src != def) {
+					// image_div.html( "<img src='" + src + "'>" );
+					prev = src
+					current_visible_element = "#image_div";
+					$(current_visible_element).fadeOut("fast", function() {
+						$("#image_div").html("<img height='450px' src='" + src + "'>")
+						$("#image_div").fadeIn("fast");
+					});
+				}
+		}
+
+	</script>
+	<!-- <script type="text/javascript" src="static/style/gentle.js"></script> -->
+</body>

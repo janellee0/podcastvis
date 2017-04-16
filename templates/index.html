@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Podcast Visualizer</title>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/style/style.css">
+	<link rel="stylesheet" href="https://openlayers.org/en/v4.0.1/css/ol.css" type="text/css">
+	<script src="https://openlayers.org/en/v4.0.1/build/ol.js"></script>
+</head>
+
+<body>
+	<audio id="audio" controls="true"></audio>
+	<button id="toggleTranscriptVisibility" onclick="hideTranscript()" type="button">Hide transcript</button>
+	<div id="marker" style="display: none;" title="Marker"></div>
+	<a class="overlay" id="map_text" target="_blank"></a>
+	<div>
+		<div id="transcript" style="width: 650px; float: left;"></div>
+	  <div id="map" style="width: 650px; height: 500px; float: left;"></div>
+		<div id="google_map" style="display: none; width: 650px; height: 500px; float: left;"></div>
+		<div id="image_div"></div>
+	</div>
+
+	<script type="text/javascript">
+		function hideTranscript() {
+			$( "#transcript" ).hide();
+			$( "#toggleTranscriptVisibility" ).hide();
+		}
+
+		var $trans = document.getElementById("transcript");
+		var $a = document.getElementById("audio");
+		var wds = [];
+		var cur_wd;
+		// List of indicies
+		var entities_to_visualize = [];
+		var transcript_data;
+		var api_to_use;
+		var istanbul = ol.proj.fromLonLat([28.9744, 41.0128]);
+		var image_query_counter = {};
+		var query;
+		var images_for_queries = {};
+		var startCharToken;
+		var image_counter = 0;
+		var marker;
+		var map_text;
+
+		$(document).ready(function() {
+			document.getElementById("audio").src = "static/data/" + getParameterByName("podcast") + "/" + getParameterByName("podcast") + ".mp3";
+			document.getElementById("audio").load();
+		});
+
+		var view = new ol.View({
+				center: istanbul,
+				zoom: 6
+			});
+
+		var map = new ol.Map({
+			target: 'map',
+			layers: [
+				new ol.layer.Tile({
+					preload: 10,
+					source: new ol.source.OSM()
+				})
+			],
+			// Improve user experience by loading tiles while animating. Will make
+			// animations stutter on mobile or slow devices.
+			loadTilesWhileAnimating: true,
+			view: view
+		});
+
+		function getParameterByName(name, url) {
+	    if (!url) {
+	      url = window.location.href;
+	    }
+	    name = name.replace(/[\[\]]/g, "\\$&");
+	    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+	        results = regex.exec(url);
+	    if (!results) return null;
+	    if (!results[2]) return '';
+	    return decodeURIComponent(results[2].replace(/\+/g, " "));
+		}
+
+		function search_getty(query, startChar) {
+			//Search for images with an api key and show the output
+			var apiKey = 'vsyyqs4jwrzvpr6jpbchgc2n';
+			console.log("searching for " + query);
+			$.ajax({
+				query: query,
+        type:'GET',
+        url:"https://api.gettyimages.com/v3/search/images/creative?embed_content_only=true&orientations=Horizontal&phrase=" + query,
+         beforeSend: function (request) {
+                request.setRequestHeader("Api-Key", apiKey);
+        }})
+	    .done(function(data){
+        console.log("Success with data");
+        // for(var i = 0; i < data.images.length; i++) {
+				for(var i = 0; i < Math.min(data.images.length, 4); i++) {
+					get_getty_embed(data.images[i]["id"], query, data.images[i]["caption"], startChar);
+        }
+	    })
+	    .fail(function(data) {
+	        alert(JSON.stringify(data,2))
+	    });
+		}
+
+		function get_getty_embed(img_code, query, description, startChar) {
+			console.log("embed img" , img_code);
+			var getty_url = "http://embed.gettyimages.com/oembed?url=http://gty.im/" + img_code + "&caller=podcast_visualizer";
+			$.ajax({
+				dataType: "json",
+				url: getty_url,
+				async: true,
+				query: query,
+				startChar: startChar,
+				success: function(data) {
+					div_name = "image_div_" + image_counter;
+					image_counter++;
+					if (description == null) {
+						description = "";
+					}
+					$("#image_div").append('<div query=' + query + ' startChar=' + startChar + ' style="margin: 0 auto; display: none;" id=' + div_name + '>' + data["html"] + '<div>' + description + '</div></div>');
+					// $("#" + div_name).find(".image-footer").css({"visibility": "hidden"});
+					images_for_queries[query].push({"image": div_name, "description": description});
+				}
+			});
+		}
+
+		function get_entities() {
+			$.ajax({
+				type: "GET",
+				url: "/" + getParameterByName("podcast"),
+				success: function(response) {
+					console.log(response);
+					entities_to_visualize = response;
+
+					// var i = 0;
+					// function myLoop () {
+					//   setTimeout(function () {
+					// 		var query = entities_to_visualize[i]["query"];
+					// 		if(!(query in images_for_queries)){
+					// 			images_for_queries[query] = [];
+					// 			console.log("trying query:", query);
+					// 			search_getty(query, startChar);
+					// 		}
+					//     i++;
+					//     if (i < entities_to_visualize.length) {
+					//       myLoop();
+					//     }
+					//   }, 1500)
+					// }
+					// myLoop();
+					initMap("Stanford University");
+				  add_elements(response);
+				}
+		    });
+		}
+
+		function load_upcoming_images(current_char) {
+			// clean_images(current_char);
+			for(var i = 0; i < entities_to_visualize.length; i++) {
+				if (entities_to_visualize[i]["start"] >= current_char && entities_to_visualize[i]["start"] < current_char + 30) {
+					var query = entities_to_visualize[i]["query"];
+					if (!(query in images_for_queries)) {
+						images_for_queries[query] = [];
+						console.log("trying query:", query);
+						search_getty(query, entities_to_visualize[i]["start"]);
+					}
+				}
+			}
+		}
+
+		function clean_images(current_char) {
+			$('#image_div').children().each(function() {
+				// console.log($(this).attr("startChar"), current_char, $(this).is(":hidden"));
+				if ($(this).attr("startChar") < current_char && $(this).is(":hidden")) {
+					var keep = false;
+					for(var i = 0; i < entities_to_visualize.length; i++) {
+						if(entities_to_visualize[i]["startChar"] > current_char && entities_to_visualize[i]["query"] == $(this).attr("query")) {
+							keep = true;
+							break;
+						}
+					}
+					if (!keep){
+						if (query in images_for_queries) {
+							delete images_for_queries[query];
+						}
+						$(this).remove();
+					}
+				}
+			});
+		}
+
+		function findTokenForStartChar(startChar) {
+			for(var i = 0; i < entities_to_visualize.length; i++) {
+				if(entities_to_visualize[i]["start"] == startChar) {
+					console.log("visualize:", entities_to_visualize[i]["query"]);
+					return entities_to_visualize[i];
+				}
+			}
+			return null;
+		}
+
+		function move_map(place) {
+			var loc = ol.proj.fromLonLat([place["geometry"]["location"].lng(), place["geometry"]["location"].lat()]);
+			// TODO: either remove this each time, or find way to move it.
+			// map.removeOverlay(marker);
+			marker = new ol.Overlay({
+				position: loc,
+				positioning: 'center-center',
+				element: document.getElementById('marker'),
+				stopEvent: false
+			});
+			map.addOverlay(marker);
+			$("#marker").show();
+
+			$("#map_text").html(place["formatted_address"]);
+			// map.removeOverlay(map_text);
+			map_text = new ol.Overlay({
+				position: loc,
+				element: document.getElementById('map_text')
+			});
+			map.addOverlay(map_text);
+			flyTo(loc, function() {});
+		}
+
+		function places_callback(results, status) {
+			console.log(status);
+			if (status == google.maps.places.PlacesServiceStatus.OK) {
+				console.log(results);
+				var place = results[0];
+				console.log(place);
+				if(api_to_use == "maps") {
+					if($('#map').is(':visible')){
+						move_map(place);
+					}
+					else{
+						$("#image_div").fadeOut("fast", function() {
+							// TODO: first, zoom out a number of miles = to the distance between old and new place. Then slowly zoom in from there.
+							$("#map").fadeIn("fast", function() {
+								move_map(place);
+							});
+						});
+					}
+					// map.fitBounds(place["geometry"]["viewport"]);
+				}
+				// if(api_to_use == "places") {
+				// 	if(place["photos"]) {
+				// 		$("#map").hide();
+				// 		$("#image_div").show();
+				// 		photo_url = place["photos"][0].getUrl({'maxWidth': 500, 'maxHeight': 500});
+				// 		var $image_div = document.getElementById("image_div");
+				// 		$image_div.innerHTML = "<img src='" + photo_url + "'>";
+				// 	}
+				// }
+				// else {
+				// 	$('#result').append('<br/>' + "No photo for " + place["name"]);
+				// }
+				}
+		}
+
+		function get_image_index(query) {
+			if (!(query in images_for_queries) || images_for_queries[query].length == 0) {
+				return -1;
+			}
+			if(!(query in image_query_counter) || image_query_counter[query] >= images_for_queries[query].length) {
+				image_query_counter[query] = 0;
+			}
+			return image_query_counter[query]++;
+		}
+
+		function flyTo(location, done) {
+        var duration = 2000;
+        var zoom = view.getZoom();
+        var parts = 2;
+        var called = false;
+        function callback(complete) {
+          --parts;
+          if (called) {
+            return;
+          }
+          if (parts === 0 || !complete) {
+            called = true;
+            done(complete);
+          }
+        }
+        view.animate({
+          center: location,
+          duration: duration
+        }, callback);
+        view.animate({
+          zoom: zoom - 1,
+          duration: duration / 2
+        }, {
+          zoom: zoom,
+          duration: duration / 2
+        }, callback);
+    }
+
+		function updateView(cur_wd) {
+			//TODO(mgord): figure out why cur_wd is sometimes undefined.
+			// console.log(cur_wd);
+			// if cur_wd is undefined, or we are still on the same word, or we can't find a token, stop.
+			if(cur_wd !== undefined) {
+				load_upcoming_images(cur_wd.startOffset + 1);
+			}
+			if(cur_wd === undefined || (startCharToken = findTokenForStartChar(cur_wd.startOffset + 1)) == null) {
+				return;
+			}
+			var request = {
+				//query: cur_wd.word
+				query: startCharToken.query
+			};
+			console.log(startCharToken);
+			api_to_use = startCharToken.api;
+			query = startCharToken.query;
+			if(api_to_use == "images") {
+				var current_visible_element = "";
+				if($('#map').is(':visible')) {
+					current_visible_element = "#map";
+				}
+				else {
+					current_visible_element = "#image_div";
+				}
+				$(current_visible_element).fadeOut("fast", function() {
+					$("#image_div").children().hide();
+					index_to_use = get_image_index(query);
+					console.log(index_to_use);
+					if(index_to_use != -1) {
+						var div_name = images_for_queries[query][index_to_use]["image"];
+						$("#" + div_name).show();
+						$("#image_div").fadeIn("fast");
+					}
+				});
+			}
+			else {
+				places_service.textSearch(request, places_callback);
+			}
+		}
+
+		var places_service;
+  	function initMap(location_name) {
+			$("#image_div").hide();
+    	var google_map = new google.maps.Map(document.getElementById('google_map'), {
+      	center: {lat: 41.9835716, lng: 13.5668653},
+      	zoom: 6
+      });
+      console.log("initializing map");
+			places_service = new google.maps.places.PlacesService(google_map);
+  	}
+
+	</script>
+	<script type="text/javascript" src="static/style/gentle.js"></script>
+	<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgvLf9wYlpu-_X-Kt1FEEyMtAnWsqH42w&callback=get_entities&libraries=places">
+    </script>
+</body>
